@@ -1,4 +1,4 @@
-# weather-insights
+# 🌍✨ **_Weather Insights_** ✨🌍 
 A React + Vite web app that displays real-time weather and the latest city news using OpenWeather and NewsAPI.
 
 
