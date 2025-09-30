@@ -1,12 +1,26 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
+=======
+# Node modules
+/node_modules
+
+# Build output
+/dist
+
+# Local environment variables
+.env
+
+# Logs
+>>>>>>> 6dc81256893234ba77547a33527b9ae2bbb8280a
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+<<<<<<< HEAD
 node_modules
 dist
 dist-ssr
@@ -22,3 +36,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+=======
+# OS files
+.DS_Store
+Thumbs.db
+>>>>>>> 6dc81256893234ba77547a33527b9ae2bbb8280a
