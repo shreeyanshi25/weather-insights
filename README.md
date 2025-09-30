@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -66,30 +66,18 @@ VITE_NEWS_API_KEY=your_newsapi_key
 npm run dev
 
 
-5. Open in your browser:
-
-http://localhost:5173
-
-🌐 Deployment on Vercel
-
 I deployed this project on Vercel because it’s free and easy for React + Vite apps.
 
 Steps I followed:
 
 Pushed my code to GitHub
 
-Logged into Vercel
- and imported the repo
-
 Added my API keys in Project Settings → Environment Variables
 
-Deployed with one click 🚀
+
 
 👉 Here’s the live demo: Weather & News App
 
-📸 Screenshot
-
-(Add a screenshot of your app here)
 
 📌 What I Learned
 
@@ -103,7 +91,7 @@ Deployed with one click 🚀
 
 🎨 Making the UI responsive with CSS
 
-🌐 Hosting React apps on Vercel
+
 
 👩‍💻 Author
 
@@ -112,4 +100,4 @@ Made with ❤️ by Shreeyanshi Yadav
 📧 Email: yadavshreeyanshi09@gmail.com
 
 🌐 GitHub: shreeyanshi25
->>>>>>> 6dc81256893234ba77547a33527b9ae2bbb8280a
+
