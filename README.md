@@ -1,93 +1,87 @@
+# 🌍✨ Weather Insights
 
+[![React](https://img.shields.io/badge/Frontend-React%20+%20Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+[![OpenWeather API](https://img.shields.io/badge/Weather-OpenWeatherAPI-eb6e4b?style=for-the-badge&logo=openweathermap&logoColor=white)](https://openweathermap.org/)
+[![NewsAPI](https://img.shields.io/badge/Data-NewsAPI-blue?style=for-the-badge)]()
+[![Deployed](https://img.shields.io/badge/Deployed-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com)
 
-# 🌍✨ **_Weather Insights_** ✨🌍 
-A React + Vite web app that displays real-time weather and the latest city news using OpenWeather and NewsAPI.
+> **Built by**: Shreeyanshi Yadav · B.Tech CSE (AI/ML) · GLBITM · 2026 Batch  
+> **Target roles**: Frontend Developer Intern / Software Engineer Intern
 
+**Weather Insights** is a modern React web application that provides real-time meteorological conditions and aggregated local news headlines for any global city. By concurrently fetching and synthesizing data from multiple third-party APIs, it delivers a unified dashboard experience.
 
-## **_🌤️ Weather & News App_**
-
-This is a small project I built using **React + Vite**.  
-It lets you check the **weather of any city** and also see the **latest news headlines** related to that city.  
-
-I made this project to practice working with APIs, React hooks, and CSS.
-
----
-
-## **_✨ Features_**
-- 🔍 Search weather by city name  
-- 🌡️ Shows temperature, humidity, and wind speed  
-- ⛅ Weather condition icons (sunny, cloudy, rain, etc.)  
-- 📰 Local news headlines for the searched city  
-- 📱 Responsive layout (works on desktop and mobile)  
+*(Live Demo is deployed on Vercel — check the repository 'About' section for the link)*
 
 ---
 
-## **_🛠️ Technologies Used_**
-- ⚛️ React + Vite  
-- 🌍 OpenWeather API  
-- 📰 NewsAPI  
-- 🎨 CSS for styling  
-
----
-
-## **_🚀 How to Run the Project Locally_**
-
-1. Clone this repository  
-   ```bash
-   git clone https://github.com/shreeyanshi25/weather-news-app.git
-   cd weather-news-app
-   Install dependencies
-
-2. Install dependencies
-   npm install
-
-
-
-3. Create a .env file in the root folder and add your API keys
-
-VITE_APP_ID=your_openweather_api_key
-VITE_NEWS_API_KEY=your_newsapi_key
-
-
-4. Start the app locally
-
-npm run dev
-
-
-I deployed this project on Vercel because it’s free and easy for React + Vite apps.
-
-Steps I followed:
-
-Pushed my code to GitHub
-
-Added my API keys in Project Settings → Environment Variables
-
-
-👉 Here’s the live demo: Weather & News App
 ## 📸 Project Preview
 
 ![Weather App Screenshot](https://github.com/shreeyanshi25/weather-insights/blob/main/Screenshot%20(1144).png?raw=true)
 
+---
 
-📌 What I Learned
+## ✨ Engineering Features
 
-⚡ Using fetch() in React to call APIs
+- 🔍 **Dynamic Search Engine** – Instantly fetches and resolves global city coordinates.
+- 🌡️ **Real-Time Meteorology** – Displays highly accurate temperature, humidity, and wind speed metrics.
+- ⛅ **Dynamic State UI** – Renders appropriate weather condition icons (sunny, cloudy, rain, etc.) based on API payloads.
+- 📰 **Concurrent Data Fetching** – Simultaneously calls NewsAPI to render local journalism correlating to the searched city.
+- 📱 **Responsive Layout** – Fully mobile-responsive CSS structure ensuring usability across devices.
+- 🛡️ **Robust Error Handling** – Manages bad network states and invalid user inputs gracefully.
 
-🛡️ Handling user input and API errors
+---
 
-🔑 Working with .env in Vite for API keys
+## 🛠️ Tech Stack Architecture
 
-🔗 Combining two APIs into one app
+- **Frontend Framework:** React.js (via Vite for optimized HMR & bundling)
+- **Styling:** Vanilla CSS (Flexbox/Grid responsiveness)
+- **Data Integrations:**
+  - `OpenWeather API` (Meteorological Data)
+  - `NewsAPI` (Aggregated Journalism)
+- **Deployment:** Vercel
 
-🎨 Making the UI responsive with CSS
+---
 
+## 🚀 How to Run Locally
 
+### 1. Clone the repository
+```bash
+git clone https://github.com/shreeyanshi25/weather-insights.git
+cd weather-insights
+```
 
-👩‍💻 Author
+### 2. Install dependencies
+```bash
+npm install
+```
 
-Made with ❤️ by Shreeyanshi Yadav
+### 3. Environment Configuration
+Create a `.env` file in the root folder and add your API keys. Note: `.env` should never be committed to Git.
 
-📧 Email: yadavshreeyanshi09@gmail.com
+```env
+VITE_APP_ID=your_openweather_api_key_here
+VITE_NEWS_API_KEY=your_newsapi_key_here
+```
 
-🌐 GitHub: shreeyanshi25
+### 4. Start the Development Server
+```bash
+npm run dev
+```
 
+The application will run locally at `http://localhost:5173`.
+
+---
+
+## 🧠 Key Learnings & Takeaways
+
+- ⚡ **Asynchronous Javascript:** Mastered concurrent `fetch()` requests and Promise handling within React `useEffect` hooks.
+- 🔑 **Secure Secrets Management:** Learned to securely expose environment variables in Vite using the `VITE_` prefix and Gitignore boundaries.
+- 🔗 **API Synthesis:** Effectively combined data from two entirely different JSON REST APIs into a single cohesive UI state.
+- 🎨 **Responsive UI/UX:** Styled a clean, consumer-grade user interface.
+
+---
+
+### 👩‍💻 Author
+Made with ❤️ by Shreeyanshi Yadav  
+📧 **Email:** yadavshreeyanshi09@gmail.com  
+🌐 **GitHub:** [@shreeyanshi25](https://github.com/shreeyanshi25)
